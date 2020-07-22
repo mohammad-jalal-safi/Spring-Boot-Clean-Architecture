@@ -68,6 +68,13 @@
             <scope>compile</scope>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.dirkheijnen</groupId>
+            <artifactId>mediator</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
     <modules>

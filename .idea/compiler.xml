@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="persistence" />
+        <module name="common" />
         <module name="BaseStructure" />
+        <module name="persistence" />
         <module name="application" />
+        <module name="Spring-Boot-Clean-Architecture" />
         <module name="domain" />
         <module name="presentation" />
-        <module name="common" />
       </profile>
     </annotationProcessing>
   </component>
