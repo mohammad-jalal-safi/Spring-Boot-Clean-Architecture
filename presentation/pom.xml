@@ -77,10 +77,6 @@
 
     </dependencies>
 
-    <modules>
-        <module>../application</module>
-        <module>../common</module>
-    </modules>
     <build>
         <plugins>
             <plugin>

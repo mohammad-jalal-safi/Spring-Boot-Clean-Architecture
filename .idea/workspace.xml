@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab99aad-7cd7-4333-a3fe-241c8ad13031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-persistence/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-persistence/src/main/java/com/clean/persistence/PersistenceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-persistence/src/main/java/com/clean/persistence/employee/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clean-persistence/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/entity/employee/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-Boot-Clean-Architecture.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/clean/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/clean/application/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/clean/common/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/clean/common/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/clean/common/CommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/DomainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/DomainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/clean/domain/DomainApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/PresentationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/PresentationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/test/java/com/clean/presentation/PresentationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/test/java/com/clean/presentation/PresentationApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,23 +38,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1ezZsKWmPNFiiXt7pvzx8sOzRQF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -48,6 +55,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,18 +66,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\custom\" />
+      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.clean.presentation.controllers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Desktop\NoteIt\project\Spring-Boot-Clean-Architecture\application\src\main\java\com\clean\application\query" />
       <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\custom\css" />
       <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\assets\templates" />
       <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\assets" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.clean.presentation.controllers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\custom\" />
-      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -79,39 +87,11 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PresentationApplication">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="application" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.application.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.common.CommonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="domain" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.base.domain.DomainApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="DomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="domain" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.domain.DomainApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersistenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="persistence" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.persistence.PersistenceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,40 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.DomainApplication" />
-      <item itemvalue="Spring Boot.PersistenceApplication" />
-      <item itemvalue="Spring Boot.CommonApplication" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.PresentationApplication" />
-    </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,61 +116,75 @@
       <updated>1595326586689</updated>
       <workItem from="1595326591952" duration="4950000" />
       <workItem from="1595412064568" duration="719000" />
+      <workItem from="1595425249684" duration="850000" />
+      <workItem from="1595426432604" duration="1245000" />
+      <workItem from="1595472998596" duration="5121000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595327665767">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="333" y="322" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595426362757">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="223" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1595327665767" />
-    <state width="1024" height="213" key="GridCell.Tab.0.bottom" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="333" y="322" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595426362757" />
+    <state width="1293" height="256" key="GridCell.Tab.0.bottom" timestamp="1595479177737">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1024" height="213" key="GridCell.Tab.0.center" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
+    <state width="1293" height="256" key="GridCell.Tab.0.center" timestamp="1595479177737">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1024" height="213" key="GridCell.Tab.0.left" timestamp="1595412792919">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
+    <state width="1293" height="256" key="GridCell.Tab.0.left" timestamp="1595479177737">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595412792919" />
-    <state width="1024" height="213" key="GridCell.Tab.0.right" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
+    <state width="1293" height="256" key="GridCell.Tab.0.right" timestamp="1595479177737">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1024" height="213" key="GridCell.Tab.1.bottom" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
+    <state width="1293" height="256" key="GridCell.Tab.1.bottom" timestamp="1595479177738">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1024" height="213" key="GridCell.Tab.1.center" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177738" />
+    <state width="1293" height="256" key="GridCell.Tab.1.center" timestamp="1595479177737">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1024" height="213" key="GridCell.Tab.1.left" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
+    <state width="1293" height="256" key="GridCell.Tab.1.left" timestamp="1595479177737">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1024" height="213" key="GridCell.Tab.1.right" timestamp="1595412792920">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
+    <state width="1293" height="256" key="GridCell.Tab.1.right" timestamp="1595479177738">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state x="299" y="76" key="Maven.ArtifactSearchDialog" timestamp="1595330710757">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1293" height="256" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177738" />
+    <state x="374" y="106" key="Maven.ArtifactSearchDialog" timestamp="1595473457012">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="299" y="76" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1595330710757" />
+    <state x="374" y="106" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595473457012" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1595326674857">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595326674857" />
-    <state x="275" y="110" key="new project wizard" timestamp="1595329874321">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="344" y="153" key="new project wizard" timestamp="1595473261726">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="275" y="110" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1595329874321" />
+    <state x="344" y="153" key="new project wizard/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595473261726" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595330773524">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

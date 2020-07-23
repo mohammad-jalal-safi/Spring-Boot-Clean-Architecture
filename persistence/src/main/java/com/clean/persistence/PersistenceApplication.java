@@ -1,10 +1,8 @@
 package com.clean.persistence;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 public class PersistenceApplication {
-
 }
