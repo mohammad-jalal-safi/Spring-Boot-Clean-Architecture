@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ab99aad-7cd7-4333-a3fe-241c8ad13031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-persistence/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-persistence/src/main/java/com/clean/persistence/PersistenceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-persistence/src/main/java/com/clean/persistence/employee/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean-persistence/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/entity/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-Boot-Clean-Architecture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/test/java/com/clean/application/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/clean/common/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/clean/common/CommonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/clean/common/CommonApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/DomainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/DomainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/test/java/com/clean/domain/DomainApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/test/java/com/clean/presentation/PresentationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/test/java/com/clean/presentation/PresentationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/clean/persistence/employee/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/clean/persistence/employee/EmployeeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +93,7 @@
       <workItem from="1595412064568" duration="719000" />
       <workItem from="1595425249684" duration="850000" />
       <workItem from="1595426432604" duration="1245000" />
-      <workItem from="1595472998596" duration="5121000" />
+      <workItem from="1595472998596" duration="5926000" />
     </task>
     <servers />
   </component>
@@ -131,46 +106,46 @@
     </state>
     <state x="223" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1595327665767" />
     <state x="333" y="322" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595426362757" />
-    <state width="1293" height="256" key="GridCell.Tab.0.bottom" timestamp="1595479177737">
+    <state width="1293" height="256" key="GridCell.Tab.0.bottom" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
-    <state width="1293" height="256" key="GridCell.Tab.0.center" timestamp="1595479177737">
+    <state width="1293" height="256" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.0.center" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
-    <state width="1293" height="256" key="GridCell.Tab.0.left" timestamp="1595479177737">
+    <state width="1293" height="256" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.0.left" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595412792919" />
-    <state width="1293" height="256" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
-    <state width="1293" height="256" key="GridCell.Tab.0.right" timestamp="1595479177737">
+    <state width="1293" height="256" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.0.right" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
-    <state width="1293" height="256" key="GridCell.Tab.1.bottom" timestamp="1595479177738">
+    <state width="1293" height="256" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.1.bottom" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177738" />
-    <state width="1293" height="256" key="GridCell.Tab.1.center" timestamp="1595479177737">
+    <state width="1293" height="256" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.1.center" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
-    <state width="1293" height="256" key="GridCell.Tab.1.left" timestamp="1595479177737">
+    <state width="1293" height="256" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.1.left" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177737" />
-    <state width="1293" height="256" key="GridCell.Tab.1.right" timestamp="1595479177738">
+    <state width="1293" height="256" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
+    <state width="1293" height="256" key="GridCell.Tab.1.right" timestamp="1595479373199">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1024" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479177738" />
+    <state width="1293" height="256" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595479373199" />
     <state x="374" y="106" key="Maven.ArtifactSearchDialog" timestamp="1595473457012">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
