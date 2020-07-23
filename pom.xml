@@ -14,6 +14,6 @@
         <module>domain</module>
         <module>common</module>
         <module>application</module>
-        <module>clean-persistence</module>
+        <module>persistence</module>
     </modules>
 </project>

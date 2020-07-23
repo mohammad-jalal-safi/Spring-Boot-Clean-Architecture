@@ -11,9 +11,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.clean</groupId>
-    <artifactId>clean-persistence</artifactId>
+    <artifactId>persistence</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>clean-persistence</name>
+    <name>persistence</name>
     <description>Persistence Project</description>
 
     <dependencies>
