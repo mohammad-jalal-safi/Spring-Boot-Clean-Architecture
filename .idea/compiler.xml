@@ -7,17 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="persistence" />
+        <module name="Spring-Boot-Clean-Architecture-master" />
         <module name="common" />
         <module name="BaseStructure" />
-        <module name="presentation" />
-        <module name="domain" />
+        <module name="persistence" />
         <module name="application" />
+        <module name="Spring-Boot-Clean-Architecture" />
+        <module name="domain" />
+        <module name="presentation" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="persistence" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

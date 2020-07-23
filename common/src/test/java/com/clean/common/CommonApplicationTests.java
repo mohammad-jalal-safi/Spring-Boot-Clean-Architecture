@@ -1,10 +1,10 @@
-package com.clean.presentation;
+package com.clean.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PresentationApplicationTests {
+class CommonApplicationTests {
 
     @Test
     void contextLoads() {

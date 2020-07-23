@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.clean.*")
-
+@ComponentScan("com.*")
 public class PresentationApplication {
 
     public static void main(String[] args) {

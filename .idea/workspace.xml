@@ -1,15 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6ab99aad-7cd7-4333-a3fe-241c8ad13031" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/persistence.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/employee/models/EmployeeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/employee/queries/SearchEmployeeQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/employee/queries/SearchEmployeeQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/java/com/clean/application/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/test/java/com/clean/persistence/PersistenceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring-Boot-Clean-Architecture.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/application/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/application/mvnw.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/clean/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/com/clean/application/query/GetPagesQueryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/common/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/common/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/clean/common/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/clean/common/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/clean/common/CommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/clean/common/CommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/domain/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/domain/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/domain/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/DomainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/DomainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/clean/domain/entity/employee/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/clean/persistence/PersistenceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/clean/persistence/PersistenceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/clean/persistence/employee/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/clean/persistence/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/com/clean/persistence/PersistenceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/classes/com/clean/persistence/employee/EmployeeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/clean-persistence-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/PresentationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/PresentationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/com/clean/presentation/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation/src/test/java/com/clean/presentation/PresentationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/test/java/com/clean/presentation/PresentationApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +102,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -28,38 +109,47 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ezZsKWmPNFiiXt7pvzx8sOzRQF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/src/main/java/com/clean/application/query" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\custom\" />
-      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.clean.presentation.controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dell\Desktop\NoteIt\project\Spring-Boot-Clean-Architecture\application\src\main\java\com\clean\application\query" />
       <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\custom\css" />
       <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\assets\templates" />
       <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.clean.presentation.controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static\custom\" />
+      <recent name="C:\Users\Dell\Desktop\NoteIt\BaseStructure\presentation\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -69,11 +159,39 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.PresentationApplication">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.application.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="domain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.base.domain.DomainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DomainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="domain" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.domain.DomainApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersistenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="persistence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clean.persistence.PersistenceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +203,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DomainApplication" />
+      <item itemvalue="Spring Boot.PersistenceApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.PresentationApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -98,79 +223,105 @@
       <updated>1595326586689</updated>
       <workItem from="1595326591952" duration="4950000" />
       <workItem from="1595412064568" duration="719000" />
-      <workItem from="1595425249684" duration="850000" />
-      <workItem from="1595426432604" duration="1245000" />
-      <workItem from="1595472998596" duration="7031000" />
+      <workItem from="1595414566587" duration="970000" />
+      <workItem from="1595415586929" duration="1557000" />
+      <workItem from="1595417296682" duration="666000" />
+      <workItem from="1595477520629" duration="322000" />
+      <workItem from="1595478498731" duration="2295000" />
+      <workItem from="1595481743204" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="154" key="#Project_Structure" timestamp="1595480989418">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="440" y="154" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480989418" />
-    <state x="333" y="322" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595426362757">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="223" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595327665767">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1595327665767" />
-    <state x="333" y="322" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595426362757" />
-    <state width="1293" height="256" key="GridCell.Tab.0.bottom" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1595416415383">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1595416415383" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1595482246414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595482246414" />
     <state width="1024" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.0.center" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1595482246413">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595482246413" />
     <state width="1024" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.0.left" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1595482246413">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595482246413" />
     <state width="1024" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595412792919" />
-    <state width="1293" height="256" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.0.right" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1595482246414">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595482246414" />
     <state width="1024" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.1.bottom" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.1.bottom" timestamp="1595482246414">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595482246414" />
     <state width="1024" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.1.center" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.1.center" timestamp="1595482246414">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595482246414" />
     <state width="1024" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.1.left" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.1.left" timestamp="1595482246414">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595482246414" />
     <state width="1024" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state width="1293" height="256" key="GridCell.Tab.1.right" timestamp="1595480365685">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1024" height="210" key="GridCell.Tab.1.right" timestamp="1595482246414">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595479414511" />
+    <state width="1024" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595482246414" />
     <state width="1024" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1595412792920" />
-    <state width="1293" height="256" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595480365685" />
-    <state x="374" y="106" key="Maven.ArtifactSearchDialog" timestamp="1595473457012">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="299" y="76" key="Maven.ArtifactSearchDialog" timestamp="1595330710757">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="76" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1595330710757" />
-    <state x="374" y="106" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595473457012" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1595326674857">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595326674857" />
-    <state x="344" y="153" key="new project wizard" timestamp="1595473261726">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="0" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1595478518470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="386" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595478518470" />
+    <state x="275" y="110" key="new project wizard" timestamp="1595329874321">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="275" y="110" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1595329874321" />
-    <state x="344" y="153" key="new project wizard/1920.0.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1595473261726" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1595330773524">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
